@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FoodDelivery</string>
+
+    <string name="register">Register</string>
+
+    <string name="yourName">Your Name</string>
+
+    <string name="email">Email Address</string>
+
+    <string name="password">Password</string>
+
+    <string name="confirm">Confirm Password</string>
+
+    <string name="welcome">Welcome back!</string>
+
+    <string name="signin">Sign in Now!</string>
+
+    <string name="hungry">------ Hungry? -------</string>
+
+    <string name="startOrder">Start Your Order Now!</string>
+
+    <string name="mostSellers">Most Sellers!</string>
+
+    <string name="signup">No Account? Sign Up Here</string>
+    <string name="title_activity_home_demo">HomeDemoActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="addToCart">Add to Cart</string>
+
+    <string name="beginOrder">Begin to Order</string>
+
+    <string name="hint">Press to show details</string>
+
+    <string name="confirmOrder">Confirm Your Order</string>
+
+    <string-array name="category">
+        <item>All category</item>
+        <item>Porridge</item>
+        <item>Hot Dishes</item>
+        <item>Cold Dishes</item>
+        <item>Others</item>
+    </string-array>
+    <string name="title_activity_overview">OverviewActivity</string>
+</resources>

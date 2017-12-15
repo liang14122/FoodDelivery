@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/startOrder"
+        android:title="Start Your Order"
+        android:orderInCategory="000"/>
+    <item
+        android:id="@+id/orderHistory"
+        android:title="Order History"
+        android:orderInCategory="001"/>
+    <item
+        android:id="@+id/manageAccount"
+        android:title="Manage Account"
+        android:orderInCategory="002"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:orderInCategory="003"/>
+
+</menu>

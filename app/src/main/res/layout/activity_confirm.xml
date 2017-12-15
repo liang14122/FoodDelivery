@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayoutConfirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.edu.rp.c346.fooddelivery.ConfirmActivity">
+
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="439dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutDetails"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="24dp"
+        tools:layout_editor_absoluteY="-72dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/confirmOrder"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/listViewOrder"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1.31" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDetails"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@color/orderList"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/textViewConfirmNumOfItem"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="No Items Yet"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewConfirmTotalPrice"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Total $0"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonConfrim"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Complete"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
