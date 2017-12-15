@@ -19,7 +19,7 @@ public class MenuItem {
         this.category = category;
         this.quantity = quantity;
         this.mostSeller = mostSeller;
-        BuildConfig.DEBUG;
+//        BuildConfig.DEBUG;
     }
 
     public int getMostSeller() {
