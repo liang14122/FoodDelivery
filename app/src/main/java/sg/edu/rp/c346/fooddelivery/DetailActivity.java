@@ -41,11 +41,11 @@ public class DetailActivity extends AppCompatActivity {
         Log.i("description", intent.getStringExtra("description"));
         tvQuantity.setText("Stock left: " + Integer.toString(intent.getIntExtra("quantity", 0)));
         if (foodName.equalsIgnoreCase("Millet porridge")) {
-            ivImage.setImageResource(R.drawable.millet_porridge);
+            ivImage.setImageResource(R.mipmap.millet_porridge);
         }else if(foodName.equalsIgnoreCase( "Dumplings")){
-            ivImage.setImageResource(R.drawable.dumplings);
+            ivImage.setImageResource(R.mipmap.dumplings);
         }else{
-            ivImage.setImageResource(R.drawable.no_image);
+            ivImage.setImageResource(R.mipmap.no_image);
         }
 
         int quantity = intent.getIntExtra("quantity", 0);

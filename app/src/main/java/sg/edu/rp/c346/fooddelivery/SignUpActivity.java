@@ -43,6 +43,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         Calendar calendar = Calendar.getInstance() ;
         dp.setMaxDate(calendar.getTimeInMillis());
+        dp.setSpinnersShown(true);
 
         final SQLiteDatabase demoDB = this.openOrCreateDatabase("FoodDelivery", MODE_PRIVATE, null);
         btnRegister.setOnClickListener(new View.OnClickListener() {

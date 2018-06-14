@@ -62,16 +62,16 @@ public class CustomAdapter extends ArrayAdapter {
 //        Log.i("name", foodName);
         if (foodName.equalsIgnoreCase("Millet porridge")) {
 //            ivPicture.setImageResource(R.drawable.millet_porridge);
-            ivPic.setImageResource(R.drawable.millet_porridge);
+            ivPic.setImageResource(R.mipmap.millet_porridge);
 //            Log.i("name", foodName);
         }else if(foodName.equalsIgnoreCase( "Dumplings")){
 //            ivPicture.setImageResource(R.drawable.dumplings);
-            ivPic.setImageResource(R.drawable.dumplings);
+            ivPic.setImageResource(R.mipmap.dumplings);
 //            Log.i("name", foodName);
 
         }else{
 //            ivPicture.setImageResource(R.drawable.no_image);
-            ivPic.setImageResource(R.drawable.no_image);
+            ivPic.setImageResource(R.mipmap.no_image);
         }
 
         ivAdd.setOnClickListener(new View.OnClickListener() {

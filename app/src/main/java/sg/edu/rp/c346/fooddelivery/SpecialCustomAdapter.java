@@ -62,13 +62,13 @@ public class SpecialCustomAdapter extends ArrayAdapter {
         tvQuantity.setText(Integer.toString(currentItem.getQuantity())+ " left");
         String foodName = currentItem.getFoodName();
         if (foodName.equalsIgnoreCase("Millet porridge")) {
-            iv.setImageResource(R.drawable.millet_porridge);
+            iv.setImageResource(R.mipmap.millet_porridge);
 //            Log.i("name1", foodName);
         }else if(foodName.equalsIgnoreCase("Dumplings")){
-            iv.setImageResource(R.drawable.dumplings);
+            iv.setImageResource(R.mipmap.dumplings);
 //            Log.i("name2", foodName);
         }else{
-            iv.setImageResource(R.drawable.no_image);
+            iv.setImageResource(R.mipmap.no_image);
 //            Log.i("name3", foodName);
         }
 
