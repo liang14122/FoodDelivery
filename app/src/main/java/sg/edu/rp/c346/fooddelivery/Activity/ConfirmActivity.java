@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Activity;
 
 import android.app.TimePickerDialog;
 import android.content.Intent;
@@ -18,6 +18,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+
+import sg.edu.rp.c346.fooddelivery.Adapter.ConfirmCustomAdapter;
+import sg.edu.rp.c346.fooddelivery.Object.OrderItem;
+import sg.edu.rp.c346.fooddelivery.R;
 
 public class ConfirmActivity extends AppCompatActivity {
 

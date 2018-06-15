@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Activity;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import sg.edu.rp.c346.fooddelivery.R;
 
 public class DetailActivity extends AppCompatActivity {
 

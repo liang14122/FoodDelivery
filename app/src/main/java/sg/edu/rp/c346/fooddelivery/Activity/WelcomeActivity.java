@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -10,6 +10,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import sg.edu.rp.c346.fooddelivery.Activity.HomeActivity;
+import sg.edu.rp.c346.fooddelivery.Activity.SignUpActivity;
+import sg.edu.rp.c346.fooddelivery.R;
 
 public class WelcomeActivity extends AppCompatActivity {
     EditText etName, etPassword;

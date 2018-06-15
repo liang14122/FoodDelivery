@@ -1,8 +1,7 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Adapter;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AlertDialog;
@@ -12,10 +11,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import sg.edu.rp.c346.fooddelivery.Object.OrderItem;
+import sg.edu.rp.c346.fooddelivery.R;
 
 import static android.content.Context.MODE_PRIVATE;
 

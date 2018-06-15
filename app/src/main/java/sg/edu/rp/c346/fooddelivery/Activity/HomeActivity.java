@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,6 +14,10 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+
+import sg.edu.rp.c346.fooddelivery.Object.MenuItem;
+import sg.edu.rp.c346.fooddelivery.R;
+import sg.edu.rp.c346.fooddelivery.Adapter.SpecialCustomAdapter;
 
 public class HomeActivity extends AppCompatActivity {
 

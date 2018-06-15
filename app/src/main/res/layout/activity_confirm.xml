@@ -5,7 +5,7 @@
     android:id="@+id/ConstraintLayoutConfirm"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sg.edu.rp.c346.fooddelivery.ConfirmActivity">
+    tools:context="sg.edu.rp.c346.fooddelivery.Activity.ConfirmActivity">
 
     <LinearLayout
         android:layout_width="347dp"
@@ -63,7 +63,8 @@
             android:text="No Items Yet"
             android:textAlignment="viewStart"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:gravity="start" />
 
         <TextView
             android:id="@+id/textViewConfirmTotalPrice"
@@ -76,7 +77,8 @@
             android:text="Total $0"
             android:textAlignment="viewStart"
             android:textColor="@android:color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:gravity="start" />
 
         <Button
             android:id="@+id/buttonConfrim"

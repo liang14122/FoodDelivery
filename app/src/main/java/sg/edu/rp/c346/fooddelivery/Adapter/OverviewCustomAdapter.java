@@ -1,8 +1,6 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Adapter;
 
 import android.content.Context;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +9,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import static android.content.Context.MODE_PRIVATE;
+import sg.edu.rp.c346.fooddelivery.Object.OrderItem;
+import sg.edu.rp.c346.fooddelivery.R;
 
 /**
  * Created by 16004118 on 20/11/2017.

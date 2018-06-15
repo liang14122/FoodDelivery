@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Object;
 
 /**
  * Created by 16004118 on 8/11/2017.

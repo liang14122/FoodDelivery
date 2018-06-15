@@ -10,13 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpActivity">
+        <activity android:name=".Activity.SignUpActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".Activity.WelcomeActivity"
             android:exported="true">
 <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -25,24 +25,24 @@
 </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name=".Activity.HomeActivity"
             android:exported="true">
 <intent-filter>
             <category android:name="android.intent.category.LAUNCHER" />
 </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity">
+        <activity android:name=".Activity.OrderActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".ConfirmActivity">
+        <activity android:name=".Activity.DetailActivity" />
+        <activity android:name=".Activity.ConfirmActivity">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OverviewActivity"></activity>
+        <activity android:name=".Activity.OverviewActivity"></activity>
     </application>
 
 </manifest>

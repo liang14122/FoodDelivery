@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="sg.edu.rp.c346.fooddelivery.OrderActivity">
+    tools:context="sg.edu.rp.c346.fooddelivery.Activity.OrderActivity">
 
     <LinearLayout
         android:id="@+id/linearLayoutOrder"
@@ -32,7 +32,8 @@
                 android:text="No Items Yet"
                 android:textAlignment="viewStart"
                 android:textColor="@android:color/white"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:gravity="start" />
 
             <TextView
                 android:id="@+id/textViewTotalPrice"
@@ -44,7 +45,8 @@
                 android:textAlignment="viewStart"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
-                android:enabled="false"/>
+                android:enabled="false"
+                android:gravity="start" />
 
             <Button
                 android:id="@+id/button"

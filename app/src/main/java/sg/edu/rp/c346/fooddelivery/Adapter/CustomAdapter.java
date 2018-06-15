@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Adapter;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -12,6 +12,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import sg.edu.rp.c346.fooddelivery.Object.MenuItem;
+import sg.edu.rp.c346.fooddelivery.R;
 
 import static android.content.Context.MODE_PRIVATE;
 

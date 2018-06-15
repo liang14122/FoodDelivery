@@ -1,4 +1,4 @@
-package sg.edu.rp.c346.fooddelivery;
+package sg.edu.rp.c346.fooddelivery.Activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -15,6 +15,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.Calendar;
+
+import sg.edu.rp.c346.fooddelivery.R;
 
 public class SignUpActivity extends AppCompatActivity {
     EditText etName, etEmail, etPasswrod, etConfirm;
